@@ -13,6 +13,6 @@ There are currently not many dark themes for Plesk. So we made it our hobby to c
 <code>/usr/local/psa/admin/htdocs/theme-skins/topa/</code>
 </pre>
 <br>
-Please keep the folder structure. Zip the individual folders to topa.zip (or any other name you like) and copy the ZIP archive into the folder on the server.
-<br>
+Please keep the folder structure. Zip the individual folders to topa.zip (or any other name you like) and copy the ZIP archive into the folder on the server. The folders css, icons, images and the file meta.xml must be packed to a ZIP archive. 
+<br><br>
 Have Fun ;-)
