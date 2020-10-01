@@ -1607,7 +1607,7 @@ transition : background-color 0.25s, box-shadow 0.25s;
 }
 .pul-button--primary.pul-button--active {
 color : #fff;
-background-color : #0b3b52;
+background-color : #01243B;
 }
 .pul-card {
 position : relative;
@@ -2074,7 +2074,7 @@ color : #8ba1b6 !important ;
 font-family : 'Titillium Web', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important ;
 font-size : 13px !important ;
  }
-#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription {
+#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container {
 background : #101824;
 border : #090e16 solid 1px;
 border-top-left-radius : 2px;
@@ -2173,4 +2173,39 @@ filter : invert(100%);
 }
 div.dashboard-tab .pul-section__header {
 border-bottom : 1px solid #0c121b !important ;
+}
+#eula_submit:disabled {
+background : #2e3136 !important ;
+}
+#eula_submit {
+padding: 5px 5px 5px 5px !important ;
+background: #101824 !important ;
+}
+.brief_info {
+color : #f3f3f3 !important ;
+padding : 14px !important ;
+border : 1px solid #090e16 !important ;
+border-radius : 3px !important ;
+background-color : #0c121b;
+}
+.standart-banner {
+padding : 14px !important ;
+border : 1px solid #090e16 !important ;
+border-radius : 20px;
+background-color : #0c121b;
+}
+.fullpath {
+color: #f28f8f !important ;
+font-weight: 500 !important ;
+}
+.vuln_block {
+margin : 20px 0 40px 0;
+padding : 12px 12px 0px 12px !important ;
+border : 1px solid #090e16 !important ;
+border-radius : 3px;
+background-color : #101824 !important ;
+}
+.status_line {
+font-size : 96% !important ;
+color : #C0C0C0;
 }
