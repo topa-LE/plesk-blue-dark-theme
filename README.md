@@ -23,8 +23,7 @@ and execute the command mentioned below.
 <pre>
 <code>/usr/local/psa/admin/htdocs/theme-skins/topa/</code>
 </pre>
-<br><br>
-### closing words
-If you want to edit the custom.css again later, copy the existing .css in this path and overwrite the old file. Please keep the folder structure. Zip the individual folders to topa.zip (or any other name you like) and copy the ZIP archive into the folder on the server. The folders css, icons, images and the file meta.xml must be packed to a ZIP archive.
+<br>
+If you want to edit the custom.css again later, copy the existing .css in this path and overwrite the old file. Please keep the folder structure. Zip the individual folders to **topa.zip** (or any other name you like) and copy the ZIP archive into the folder on the server. The folders css, icons, images and the file meta.xml must be packed to a ZIP archive.
 <br><br>
 Have Fun ;-)

@@ -2108,3 +2108,18 @@ background-color : #4461a1 !important ;
 .log-bar-progress {
 background-color : #7b73db !important ;
 }
+.cookie-policy-overlay__modal-content {
+background : #0c121b ;
+}
+.CodeMirror {
+background-color : antiquewhite ;
+}
+.CodeMirror-gutter {
+background-color : #0c121b ;
+}
+.a-toolbar-buttons-misc .btn-settings {
+	padding : 4px 6px ;
+}
+.a-toolbar-buttons-settings > .btn {
+	margin : 0 ;
+}
