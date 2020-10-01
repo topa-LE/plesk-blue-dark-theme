@@ -2074,7 +2074,7 @@ color : #8ba1b6 !important ;
 font-family : 'Titillium Web', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important ;
 font-size : 13px !important ;
  }
-#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container {
+#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container, #pleskext-xovi-view-lists-siteauditissuesdetails-container, #smb-form-final-web-changehosting {
 background : #101824;
 border : #090e16 solid 1px;
 border-top-left-radius : 2px;
@@ -2208,4 +2208,38 @@ background-color : #101824 !important ;
 .status_line {
 font-size : 96% !important ;
 color : #C0C0C0;
+}
+#seo-toolkit .detail-description .readmore {
+background : #2b3948 !important ;
+border : solid 2px #0c121b !important ;
+color : #fff !important ;
+padding : 3px !important ;
+ }
+#seo-toolkit .detail-description {
+padding : 8px;
+border : #090e16 solid 1px !important;
+border-radius : 3px;
+background-color : #0c121b;
+}
+#seo-toolkit .detail-meta .chartbox .sidetext {
+padding : 15px 10px 10px 10px;
+font-size : 14px;
+}
+.col-md-6 {
+background : #061321;
+}
+#seo-toolkit #domain-overview span.kpiLabel {
+font-size : 14px !important;
+}
+table.whitelist  tr td {
+border : 1px solid #090e16;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+padding : 11px;
+background : #101824;
+}
+.whitelist thead {
+color : #fdd6ad !important ;
 }
