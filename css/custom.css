@@ -1778,7 +1778,6 @@ padding : 7px;
 display : block;
 width : 24px;
 height : 24px;
-filter : invert(100%);
 }
 #pagespeed .result-orange {
 color : #f09e3e !important ;
@@ -2074,7 +2073,7 @@ color : #8ba1b6 !important ;
 font-family : 'Titillium Web', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important ;
 font-size : 13px !important ;
  }
-#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container, #pleskext-xovi-view-lists-siteauditissuesdetails-container, #smb-form-final-web-changehosting, #smb-form-final-dnszone-record, #commonpanel-form-sslcertificate-secure, #adminpanel-form-final-sslcertificate-edit, #pleskext-letsencrypt-form-securepanel, #adminpanel-form-final-adminalias, #adminpanel-form-final-controlpanelaccess-network, #adminpanel-form-final-domainrestriction, #plesk-panelnotification-form-storageperiod, #notifications-list-container {
+#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container, #pleskext-xovi-view-lists-siteauditissuesdetails-container, #smb-form-final-web-changehosting, #smb-form-final-dnszone-record, #commonpanel-form-sslcertificate-secure, #adminpanel-form-final-sslcertificate-edit, #pleskext-letsencrypt-form-securepanel, #adminpanel-form-final-adminalias, #adminpanel-form-final-controlpanelaccess-network, #adminpanel-form-final-domainrestriction, #plesk-panelnotification-form-storageperiod, #notifications-list-container, #pleskext-letsencrypt-form-securedomainform, #smb-form-final-ftpuser, #commonpanel-form-scheduler-task, #pleskext-git-form-add {
 background : #101824;
 border : #090e16 solid 1px;
 border-top-left-radius : 2px;
@@ -2171,6 +2170,9 @@ background-color: #0e1621;
 .pul-list .is-sorted--down .th__action::after {
 filter : invert(100%);
 }
+.sid-legacy .list th.sort img[src*="sort-up"] {
+filter : invert(100%);
+}
 div.dashboard-tab .pul-section__header {
 border-bottom : 1px solid #0c121b !important ;
 }
@@ -2257,4 +2259,64 @@ background-color : #1f2a35 !important;
 }
 .pul-button {
 font-size : 14px !important;
+}
+div#sites-list.js-list {
+border : 1px solid #090e16;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+padding : 7px;
+background : #101824;
+}
+div.pul-list-empty-view__image {
+border : 1px solid #090e16;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+padding : 7px;
+background : #0c121b;
+}
+div.pul-list-empty-view__body {
+border : 1px solid #090e16;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+padding : 7px;
+background : #0c121b;
+}
+div#securitySettings.form-box {
+border : 1px solid #090e16;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+padding : 7px;
+background : #101824;
+}
+#pagespeed .tool-icon img {
+filter : invert(100%);
+}
+#seo-toolkit #domain-overview span.column-message {
+color : #d3d2d0 !important;
+font-style : normal !important;
+}
+.plesk-ext-git--mode-selector::after {
+height : 0px !important;
+background : #0c121b !important;
+}
+.plesk-ext-git--mode-selector-radio {
+border : 2px solid #090e16 !important;
+background-color : #0c121b !important;
+border-top-left-radius : 2px;
+border-top-right-radius : 2px;
+border-bottom-right-radius : 2px;
+border-bottom-left-radius : 2px;
+}
+.plesk-ext-git--mode-selector-radio.checked::after {
+box-shadow : 1px 1px 0 0 #1b2022 !important;
+background-color : #ec9a31 !important;
+bottom : -16px !important;
 }
