@@ -2074,7 +2074,7 @@ color : #8ba1b6 !important ;
 font-family : 'Titillium Web', "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important ;
 font-size : 13px !important ;
  }
-#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container, #pleskext-xovi-view-lists-siteauditissuesdetails-container, #smb-form-final-web-changehosting {
+#pleskext-xovi-view-lists-siteauditissues-content, #rank-tracker-form, #pleskext-xovi-view-lists-siteauditissues-seo-container, #pleskext-xovi-view-lists-siteauditissues-tech-container, #pm-form-simple, #pleskext-xovi-view-lists-loganalyzer-latestcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawled-container, #pleskext-xovi-view-lists-loganalyzer-mostcrawleddirectories-container, #pleskext-xovi-view-lists-loganalyzer-errorcode-container, #pleskext-xovi-view-lists-loganalyzer-redirected-container, #pleskext-xovi-view-lists-loganalyzer-botuseragents-container, #adminpanel-form-final-mail-mailboxquotawarning, #adminpanel-form-final-createsubscription, #eula, #modules-revisiumantivirus-view-list-domains-container, #modules-revisiumantivirus-view-list-scanreport-container, #pleskext-xovi-view-lists-siteauditissuesdetails-container, #smb-form-final-web-changehosting, #smb-form-final-dnszone-record, #commonpanel-form-sslcertificate-secure, #adminpanel-form-final-sslcertificate-edit, #pleskext-letsencrypt-form-securepanel, #adminpanel-form-final-adminalias, #adminpanel-form-final-controlpanelaccess-network, #adminpanel-form-final-domainrestriction, #plesk-panelnotification-form-storageperiod, #notifications-list-container {
 background : #101824;
 border : #090e16 solid 1px;
 border-top-left-radius : 2px;
@@ -2242,4 +2242,19 @@ background : #101824;
 }
 .whitelist thead {
 color : #fdd6ad !important ;
+}
+.tree-item-select {
+width : 105%;
+}
+.content-blocker {
+background : #090e16 !important ;
+}
+.pul-list td {
+background-color : #0e1621 !important;
+}
+.pul-list tbody tr.is-selected > td, .pul-list tbody tr.is-selected > th {
+background-color : #1f2a35 !important;
+}
+.pul-button {
+font-size : 14px !important;
 }
