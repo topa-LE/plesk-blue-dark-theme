@@ -2339,3 +2339,11 @@ margin-top : 100px;
 #pagespeed-result ul.list-unstyled li {
 background-color : #101824 !important;
 }
+.progress {
+height : 4px;
+background-color : #f3e2d1;
+}
+.pul-layout--simplified .pul-layout__header-inner {
+color : #fff;
+background-color : #0c121b;
+}
