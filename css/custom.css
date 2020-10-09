@@ -2347,3 +2347,9 @@ background-color : #f3e2d1;
 color : #fff;
 background-color : #0c121b;
 }
+.choice-block span {
+background : #3e5773;
+}
+.choice-block .selected.no {
+background-color : #615e55;
+}
