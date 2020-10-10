@@ -2353,3 +2353,15 @@ background : #3e5773;
 .choice-block .selected.no {
 background-color : #615e55;
 }
+.list .alert-container:hover > td, .list .alert-container > td {
+border-color : #e0e9f0;
+background : #101010;
+}
+.list .alert-container .alert {
+display : inline-block;
+margin : 0;
+padding : 6px 14px;
+color : #fff;
+background : #272b2f;
+text-shadow : none;
+}
