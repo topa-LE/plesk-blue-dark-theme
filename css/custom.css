@@ -33,7 +33,7 @@ border-right : 2px solid #090e16;
 .page-sidebar-menu a:hover {
 outline : none;
 color : #fff;
-background-color : #090e16;
+background-color : #090e16 !important;
 }
 body {
 color : #fff;
@@ -315,7 +315,7 @@ border-radius : 3px;
 padding : 6px;
 }
 .page-sidebar-menu .sub-menu .active > a, .page-sidebar-menu .sub-menu .active > a:hover {
-background : #1f2a35;
+background : #1f2a35 !important;
 }
 .plesk-ext-catalog-quick-access {
 text-align : left;
@@ -353,6 +353,13 @@ line-height : 20px;
 color : #fdd6ad;
 text-align : center;
 cursor : pointer;
+}
+.view-switcher__close {
+color: #da9a55;
+}
+.view-switcher:hover .view-switcher__close {
+color: #fff;
+background-color: #0c121c;
 }
 .active-list .quick-start-header .close:hover {
 color : #fdd6ad;
@@ -2130,7 +2137,7 @@ background-color : #0c121b ;
 color : #fdd6ad ;
 }
 .page-sidebar-menu a:focus, .page-sidebar-menu a:hover {
-background-color : #0c121c ;
+background-color : #0c121c !important ;
 }
 .r-actions-select span {
 background-image : url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='1 1 14 14'%3E%3Cpath fill='%23fdd6ad' d='M3.017 7.904l1.871-1.873 2.285 2.291 6.092-6.101 1.78 1.783-7.961 7.973-4.067-4.073z'/%3E%3Cpath fill='%2328aade' d='M12.021 10.116v2.926H1.979V2.958h7.968l1.074-.933H1.002v11.936h11.977L13 9.083l-.979 1.033z'/%3E%3C/svg%3E") ;
