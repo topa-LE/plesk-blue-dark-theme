@@ -435,8 +435,12 @@ font-size : 16px;
 line-height : 1.333;
 color : #858484;
 }
-.page-header-search-hover .main-header {
+.page-header--search-hover .main-header {
 border-bottom : 1px solid #090e16;
+box-shadow: inset 0 -1px 0 #090e16;
+}
+.page-header {
+background-color: #061321;
 }
 .tabs .active > a, .tabs .active > a:hover {
 position : relative;
@@ -1398,7 +1402,7 @@ margin : 16px 0 8px;
 padding-top : 16px;
 border-top : 3px solid #0a0f17;
 }
-.page-header-search-hover .main-header {
+.page-header--search-hover .main-header {
 box-shadow : 0 -1px 0 #2d3a47 inset;
 }
 .fm .objects-list {
