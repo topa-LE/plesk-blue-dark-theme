@@ -14,9 +14,8 @@ Reload the packed file via SSH (console):
 </pre>
 
 <br>
-### Important:
-only the **3 folders** plus the **meta.xml** may be copied to the server as a packed archive (topa.zip)!
-<br>
+## Important: only the **3 folders** plus the **meta.xml** may be copied to the server as a packed archive (topa.zip)!
+<br><br>
 and execute the command mentioned below.
 <br><br>
 <pre>
