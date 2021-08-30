@@ -5,13 +5,17 @@ Alternative Theme for Plesk Server Admin GUI
 There are currently not many dark themes for Plesk. So we made it our hobby to create a new theme based on Plesk Obsidian 18.0.30. To activate the branding theme in Plesk, proceed as follows. Via SSH access from the server, define the topaLE theme via console (root) the custom theme and activate it as default theme (upload ZIP file to server). Download the **master.zip** and extract the zip file. Open the folder structure and merge the following folders and files as topa.zip or another name:
 <br>
 <pre>
-<code>/css + /Icons + /images + meta.xml</code>
+<code>/css + /icons + /images + meta.xml</code>
 </pre>
 <br>
 Reload the packed file via SSH (console):
 <pre>
 <code>/usr/local/psa/topa.zip</code>
 </pre>
+
+<br>
+### Important:
+only the **3 folders** plus the **meta.xml** may be copied to the server as a packed archive (topa.zip)!
 <br>
 and execute the command mentioned below.
 <br><br>
