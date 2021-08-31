@@ -268,7 +268,7 @@ padding : 12px 16px 0;
 border-top : 1px solid #061321;
 }
 hr {
-border-top : 1px solid #090e16;
+border-top : 1px solid #090e16 !important;
 }
 .panel .panel-sub-heading {
 margin : 0 0 12px;
