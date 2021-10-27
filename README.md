@@ -31,4 +31,4 @@ If you want to edit the custom.css again later, copy the existing .css in this p
 <br><br>
 Have Fun ;-)
 <br><br>
-![Dark Theme PLESK Backend](https://raw.githubusercontent.com/topa-LE/plesk_blue_dark_theme/master/screenshots/plesk-backend-screen.jpg)
+![Dark Theme OMV](https://github.com/topa-LE/plesk_blue_dark_theme/raw/master/screenshots/plesk-backend-screen.jpg)
