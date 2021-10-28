@@ -30,5 +30,5 @@ and execute the command mentioned below.
 If you want to edit the custom.css again later, copy the existing .css in this path and overwrite the old file. Please keep the folder structure. Zip the individual folders to **topa.zip** (or any other name you like) and copy the ZIP archive into the folder on the server. The folders css, icons, images and the file meta.xml must be packed to a ZIP archive.
 <br><br>
 Have Fun ;-)
-<br><br>
-![Dark Blue Plesk Backend](https://raw.githubusercontent.com/topa-LE/plesk_blue_dark_theme/master/screenshots/plesk-backend-screen.jpg)
+
+![Dark Blue Theme Plesk Backend](https://raw.githubusercontent.com/topa-LE/plesk_blue_dark_theme/master/screenshots/plesk-backend-screen.jpg)
